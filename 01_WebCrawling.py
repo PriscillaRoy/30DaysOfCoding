@@ -28,6 +28,6 @@ soup = bs4.BeautifulSoup(res.text, 'lxml')
 for link in soup.find_all('a', href = True):
     if link['href'] is '#':
         continue
-    
+
     else:
         print(link['href'])
