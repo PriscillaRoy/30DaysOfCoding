@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-
+from data import articles
 app = Flask(__name__)
 
 @app.route('/')
