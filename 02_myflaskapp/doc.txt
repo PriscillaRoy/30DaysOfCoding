@@ -1,2 +1,0 @@
-<!--Double Curly Braces for dynamic variables/value - {{}}-->
-<!--{% %} for logic-->
